@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito',sans-serif;
+}
+
+.parallax{
+    height:max-content;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.page-title{
+    background:white;
+    font-weight: bolder;
+    text-align:left;
+    color: gold;
+    padding:5px;
+    font-variant:small-caps;
+    font-family: 'Nunito',sans-serif;
+    font-size:25px;
+    letter-spacing:1px;
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    width:50%;
+}
+
+.menu{
+    background:white;
+    top: 0.5cm;
+    text-align:right;
+}
+
+.menu-ul{
+    margin:0;
+    padding:0;
+    display:inline;
+}
+
+.menu-ul li{
+    font-size:17px;
+    list-style:none;
+    display:inline;
+    padding:25px 25px 26px 25px;
+}
+
+.a-menu{
+    text-decoration:none;
+    color:black;
+}
+
+.menu-ul li:hover{
+    background: gold;
+    transform:scale(1.1);
+}
+
+i{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align:center;
+}
+
+.categories{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.images{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+    height:auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+.item-image{
+    height:auto;
+    width: 100%;
+    align-items: center;
+    border-radius: 0 0 50px 50px;
+    padding:10px;
+}
+
+.title{
+    text-decoration: none;
+    text-align:center;
+     font-family:'Nunito',sans-serif ;
+     font-size: 1.6rem;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    color:black
+}
+
+.description{
+    text-decoration: none;
+    margin: 20px;
+    min-height: 100px;
+    color: slategray;
+    text-align: center;
+    padding: 5px;
+}
+
+.parallax1{
+    height:max-content;
+    width: 100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.footer{
+    background: rgb(228, 234, 240);
+    text-align: center;
+    padding: 20px;
+}
+
+.a-links{
+    text-decoration: none;
+    color: black;
+}
+
+.quick-links{
+    color: darkgray;
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline-block;
+    min-width: 30%;
+}
+
+.quick-links ul{
+    padding: 0;
+}
+
+.quick-links li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.a-links:hover{
+    color: gold;
+}
+
+.copyrights{
+    font-size: 16px;
+    font-family: Nunito,sans-serif;
+    text-align: center;
+    margin: 15px;
+}
