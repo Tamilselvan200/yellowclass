@@ -111,7 +111,7 @@ button{
 
 .title{
     text-decoration:underline;
-    text-decoration:gold;
+    text-decoration-color:gold;
     text-align:center;
      font-family:'Nunito',sans-serif ;
      font-size: 1.6rem;
