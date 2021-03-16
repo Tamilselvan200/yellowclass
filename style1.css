@@ -110,7 +110,7 @@ button{
 }
 
 .title{
-    text-decoration: overline;
+    text-decoration: none;
     text-align:center;
      font-family:'Nunito',sans-serif ;
      font-size: 1.6rem;
@@ -121,7 +121,7 @@ button{
 }
 
 .description{
-    text-decoration: overline;
+    text-decoration: none;
     margin: 20px;
     min-height: 100px;
     color: slategray;
